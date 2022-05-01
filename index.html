@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- hoja de estilos -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- título de página -->
+    <title>Título de la página</title>
+    <!-- ícono de pàgina -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <!-- javascript -->
+    <script src="./js/main.js"></script>
+
+</head>
+
+<body class="flex">
+    <div id="header">
+        <h1 id="texto">Bin2Dec App</h1>
+        <p id="texto2" style="text-align: center;">Enter a <a id="sub">binary number</a>, get a <a id="sub">decimal</a> conversion.</p>
+        <p class="verde" id="decimal1" style="text-align: center;"></p>
+        <p class="rojo" id="decimal2" style="text-align: center;"></p>
+        <br>
+        <input type="number" value="" id="num" onkeyup="calcular()">
+        <p id="resultado"></p>
+        <footer>Made by <a href="https://www.instagram.com/pol._mrk/">@pol._mrk</a></footer>
+
+    </div>
+
+</body>
+
+</html>
