@@ -8,7 +8,7 @@
     <!-- hoja de estilos -->
     <link rel="stylesheet" href="./css/styles.css">
     <!-- título de página -->
-    <title>Bin2Dec</title>
+    <title>Bind2Hex</title>
     <!-- ícono de pàgina -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <!-- fuentes -->
@@ -19,7 +19,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <!-- javascript -->
-    <script src="./js/main.js"></script>
+    <script src="./js/hexa.js"></script>
 
 </head>
 
@@ -27,15 +27,14 @@
     <div id="header">
         <h1 style="text-align: center;" id="texto">Bin2Dec App</h1>
         <p id="texto2" style="text-align: center;">Enter a <a id="sub">binary number</a>, get a <a id="sub">decimal</a> conversion.</p>
-        <p class="verde" id="decimal1" style="text-align: center;"></p>
-        <p class="rojo" id="decimal2" style="text-align: center;"></p>
+        <p class="verde" id="decimal3" style="text-align: center;"></p>
+        <p class="rojo" id="decimal4" style="text-align: center;"></p>
         <br>
-        <input type="number" value="" id="num" onkeyup="calcular()">
-        <p id="resultado"></p>
-        <button><a style="color: black;" href="./indexhexa.html">Change to hexadecimal</a></button>
+        <input type="number" value="" id="num2" onkeyup="calcular()">
+        <p id="resultado2"></p>
+        <button><a style="color: black;" href="./index.html">Change to binary</a></button>
         <footer style="padding: top 15px;">Made by <a href="https://www.instagram.com/pol._mrk/">@pol._mrk</a></footer>
     </div>
-
 </body>
 
 </html>
